@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bp_response1832">
+    package="com.example.bp1832_response">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BPResponse1832">
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.bp1832_response.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.bp1832_response.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
